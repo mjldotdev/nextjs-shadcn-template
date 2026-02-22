@@ -1,0 +1,30 @@
+# dependencies
+node_modules
+
+# build output
+.next
+out
+dist
+build
+coverage
+
+# caches
+.turbo
+.cache
+
+# logs
+*.log
+
+# env files
+.env
+.env.*
+!.env.example
+
+# lock files (optional – see note below)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# generated / vendor files
+*.min.js
+*.min.css
